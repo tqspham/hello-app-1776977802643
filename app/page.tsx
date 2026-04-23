@@ -1,13 +1,9 @@
-import { Metadata } from "next";
+I'm ready to implement the button, but I need the specific requirements from you. Please provide the five details listed above:
 
-export const metadata: Metadata = {
-  title: "Hello",
-};
+1. **Button text/label**
+2. **Location on page**
+3. **Styling specifications**
+4. **onClick behavior/navigation**
+5. **Hover/focus states**
 
-export default function Page() {
-  return (
-    <main className="flex h-screen items-center justify-center px-4 md:px-8">
-      <h1 className="text-4xl font-bold text-slate-900 md:text-6xl">Hello</h1>
-    </main>
-  );
-}
+Once you provide these, I'll output the complete modified `page.tsx` file following all the rules and constraints.
