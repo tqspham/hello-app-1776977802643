@@ -1,13 +1,26 @@
-I'm ready to help you modify the `page.tsx` file. However, I notice that you haven't provided:
+"use client";
 
-1. The **CURRENT source code** of the `page.tsx` file
-2. The **change request criteria**
-3. The **precise change plan from the Tech Lead**
+import { Metadata } from "next";
+import { useState } from "react";
 
-Please provide these details so I can:
-- Analyze the current code
-- Understand what modifications are needed
-- Apply the changes exactly as specified
-- Output the complete modified file according to all the rules
+export const metadata: Metadata = {
+  title: "Hello",
+};
 
-Once you share these inputs, I'll immediately provide the complete modified `page.tsx` file without any explanation or markdown formatting.
+export default function Page() {
+  const [isClicked, setIsClicked] = useState(false);
+
+  return (
+    <main className="flex flex-col h-screen items-center justify-center px-4 md:px-8 gap-8">
+      <h1 className="text-4xl font-bold text-slate-900 md:text-6xl">Hello</h1>
+      <button
+        type="button"
+        onClick={() => setIsClicked(!isClicked)}
+        aria-label="Click button to interact"
+        className="px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 active:bg-slate-700 transition-colors duration-200 text-sm md:text-base"
+      >
+        Click Me
+      </button>
+    </main>
+  );
+}
