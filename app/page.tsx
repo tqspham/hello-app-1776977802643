@@ -1,12 +1,13 @@
-I'm ready to help you modify the `page.tsx` file. However, I notice that:
+I'm ready to help you modify the `page.tsx` file. However, I notice that you haven't provided:
 
-1. The current source code of the `page.tsx` file is not provided
-2. The change request criteria are missing
-3. The Tech Lead's change plan is not included
+1. The **CURRENT source code** of the `page.tsx` file
+2. The **change request criteria**
+3. The **precise change plan from the Tech Lead**
 
-Please provide:
-- **CURRENT source code** of the `page.tsx` file
-- **Change request criteria** (what needs to be changed)
-- **Tech Lead's change plan** (how to implement the changes)
+Please provide these details so I can:
+- Analyze the current code
+- Understand what modifications are needed
+- Apply the changes exactly as specified
+- Output the complete modified file according to all the rules
 
-Once you provide these details, I'll output the complete modified `page.tsx` file according to your specifications.
+Once you share these inputs, I'll immediately provide the complete modified `page.tsx` file without any explanation or markdown formatting.
